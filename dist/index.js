@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const userName = "puto";
 const age = 3;
 // console.log(`Alguna vainita ${userName} y ${age}`);
@@ -45,3 +46,14 @@ printPosition({ lat: 234234, lng: 12 });
 function printPosition(position) {
     console.log(`Alguna vainita ${position.lat} y ${position.lng}`);
 }
+let newAnimal = [{
+        name: "ROMA",
+        array: [1, 2],
+        method: (num) => {
+            console.log(num);
+        }
+    }, {
+        name: "HEY",
+        array: [1, 2, 3]
+    }];
+console.log(newAnimal[0].method);
